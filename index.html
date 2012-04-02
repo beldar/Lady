@@ -1,0 +1,101 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title></title>
+  <meta name="description" content="">
+
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="boxgrid/index.php?columns=12&namespace=grid&width=64&height=32&gap=18">
+	<style type="text/css">
+		#capsalera{height:100px;border-bottom:5px solid black;}
+		.box {background-color: #CCC;}
+		#grid {margin:0 auto;width:100%}
+		
+	</style>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="jquery.masonry.min.js"></script>
+</head>
+<body>
+  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <div href="http://browsehappy.com/">Upgrade to a different browser&nbsp;</div> or <div href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame&nbsp;</div> to experience this site.</p><![endif]-->
+    <div class="container" id="grid">
+		<!-- Contingut 
+		<div id="grid">-->
+			<!--<ul class="thumbnails">-->
+				
+					<div  class="box w3 h5" >
+						<!-- <img src="http://placehold.it/276x273" /> -->
+					1</div>
+				
+				
+					<div  class="box w5 h7" >
+						<!-- <img src="http://placehold.it/389x392" /> -->
+					2</div>
+				
+				
+					<div  class="box w3 h3 end" >
+						<!-- <img src="http://placehold.it/227x155" /> -->
+					3</div>
+					
+				
+					<div  class="box w2 h4" >
+						<!-- <img src="http://placehold.it/145x218" /> -->
+					4</div>
+				
+				
+					<div  class="box w2 h2 end" >
+						<!-- <img src="http://placehold.it/145x100" /> -->
+					5</div>
+				
+				
+					<div  class="box w2 h6 end" >
+						<!-- <img src="http://placehold.it/145x336" /> -->
+					6</div>
+				
+				
+					<div  class="box w4 h4" >
+						<!-- <img src="http://placehold.it/308x218" /> -->
+					7</div>
+				
+				
+					<div  class="box w3 h4" >
+						<!-- <img src="http://placehold.it/227x218" /> -->
+					8</div>
+				
+				
+					<div  class="box w2 h5" >
+						<!-- <img src="http://placehold.it/145x277" /> -->
+					9</div>
+				
+				
+					<div  class="box w3 h3" >
+						<!-- <img src="http://placehold.it/227x218" /> -->
+					10</div>
+				
+				
+					<div  class="box w4 h5" >
+						<!-- <img src="http://placehold.it/308x277" /> -->
+					11</div>
+				
+				
+					<div  class="box w4 h3" >
+						<!-- <img src="http://placehold.it/308x218" /> -->
+					12</div>
+				
+			<!--</ul>-->
+</div>
+<script type="text/javascript">
+$("#grid").masonry({
+		itemSelector : '.box',
+		columnWidth: 64,
+		gutterWidth: 18,
+		isAnimated: true
+		
+	  });
+</script>
+</body>
+</html>
