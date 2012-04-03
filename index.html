@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -10,19 +10,24 @@
   <meta name="description" content="">
 
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="boxgrid/index.php?columns=12&namespace=grid&width=64&height=32&gap=18">
+  <link rel="stylesheet" href="boxgrid/index.php?columns=12&width=64&height=32&gap=18">
 	<style type="text/css">
-		#capsalera{height:100px;border-bottom:5px solid black;}
-		.box {background-color: #CCC;}
+		#capsalera{height:160px;border-bottom:2px solid black;border-top:16px solid black;font-family:Courier, monotype;font-size:7pt;padding-top:8px;}
+		#grid .box {background-color: #CCC;}
 		#grid {margin:0 auto;width:100%}
-		
+		.right{float:right}
 	</style>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script src="jquery.masonry.min.js"></script>
 </head>
-<body>
+<body id="total">
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <div href="http://browsehappy.com/">Upgrade to a different browser&nbsp;</div> or <div href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame&nbsp;</div> to experience this site.</p><![endif]-->
-    <div class="container" id="grid">
+    <div id="capsalera">
+		<div class="box w2">Ladyssenyadora<br />Estudi gràfic</div>
+		<div class="box w2 right">Raimon Benach<br />Montse Raventós<br />Jordi Roca</div>
+		<div class="box w2 right">Graupera 3, 2n<br />Vilafranca del Penedès<br />Barcelona</div>
+	</div>
+	<div class="container" id="grid">
 		<!-- Contingut 
 		<div id="grid">-->
 			<!--<ul class="thumbnails">-->
@@ -96,6 +101,7 @@ $("#grid").masonry({
 		isAnimated: true
 		
 	  });
+
 </script>
 </body>
 </html>
